@@ -28,8 +28,8 @@
 ## Installation
 ### Clone
 ```
-$ git clone https://github.com/HiRahmat-Dev/tokosidia-API.git
-$ cd tokosidia-API
+$ git clone https://github.com/shoelfikar/lalavent.server.git
+$ cd lalavent.server
 $ npm install
 ```
 
@@ -51,7 +51,7 @@ SERVER_PORT="Your_Port"
 
 ### Start Development Server
 ```
-$ npm run serve
+$ npm start
 ```
 ## Link Collection Postman
 [Postman](https://www.getpostman.com/collections/a393e0f1a889241cd194)
@@ -139,6 +139,3 @@ Fork the Project
   </table>
 </center>
 
-## Contact
-
-If you want to contact me you can reach me at <ichvanulyp@gmail.com>
