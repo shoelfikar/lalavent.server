@@ -80,6 +80,38 @@ PASS = 'your password'
 ```
 $ npm run serve
 ```
+
+## Structure Folder
+```
+\---src
+|    \---controller
+|    |   +---category.js
+|    |   +---event.js
+|    |   +---role.js
+|    |   +---ticket.js
+|    |   +---user.js
+|    \---helper
+|    |   +---error.js
+|    |   +---sendmail.js
+|    |   +---upload.js
+|    \---models
+|    |   +---category.js
+|    |   +---event.js
+|    |   +---index.js
+|    |   +---role.js
+|    |   +---ticket.js
+|    |   +---user.js
+|    \---router
+|    |   +---category.js
+|    |   +---event.js
+|    |   +---role.js
+|    |   +---ticket.js
+|    |   +---user.js
++---app.js
++---server.js
+```
+
+
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are greatly appreciated.
