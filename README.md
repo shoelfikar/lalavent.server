@@ -21,65 +21,40 @@
 - [Contributors](#contributors)
 
 ## Prerequiste
+- Node.js - Download and Install [Node.js](https://nodejs.org/en/).
+- MySQL - Download and Install [MySQL](https://www.mysql.com/downloads/) - Make sure it's running on the default port.
 - Sequelize - Download and Install [Sequelize](https://sequelize.org/)
 
 ## Installation
 ### Clone
-1. Clone this repository
 ```
-$ git clone https://github.com/ichvanul/lalavent.server.git
+$ git clone https://github.com/HiRahmat-Dev/tokosidia-API.git
+$ cd tokosidia-API
 $ npm install
 ```
-2. Create folder named config on the root directory
+
+### Create Environment Variable
 ```
-Inside the config folder, create a file named config.json
+$ touch .env
+$ nano .env
 ```
-3. Copy paste the code down below to file config.json
+
 ```
-{
-  "development": {
-    "username": "your database username",
-    "password": "your database password",
-    "database": "lalavent",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
-  },
-  "test": {
-    "username": "your database username",
-    "password": "your database password",
-    "database": "lalavent",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
-  },
-  "production": {
-    "username": "your database username",
-    "password": "your database password",
-    "database": "lalavent",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
-  }
-}
+DB_HOST="Your_Host"
+DB_USER="Your_Username"
+DB_PASSWORD="Your_Password"
+DB_NAME="Your_Table"
+
+SERVER_PORT="Your_Port"
+
 ```
-5. Open your database
-```
-Create new database called "lalavent"
-```
-6. Run 
-```
-npx sequelize-cli db:migrate
-```
-7. Create file .env on your root directory
-8. Copy paste this code to file .env
-```
-PORT = 5000
-SECRET_KEY = 'Bismillah'
-EMAIL = 'your email' (this email to send activate user to your account)
-PASS = 'your password'
-```
-9. Start development server
+
+### Start Development Server
 ```
 $ npm run serve
 ```
+## Link Collection Postman
+[Postman](https://www.getpostman.com/collections/bb923819853137d50b60)
 
 ## Structure Folder
 ```
